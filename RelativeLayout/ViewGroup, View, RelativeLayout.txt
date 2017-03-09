@@ -1,0 +1,21 @@
+
+	
+	ViewGroup and View
+	
+ViewGroup-- group of widgets and deal with more than one ViewGroup . eg-> Layouts
+
+
+View -- When we deal with a particular widget then that widget is a View. 
+
+
+Layouts in android:
+
+RelativeLayout
+LinearLayout
+FrameLayout
+TableLayout
+CoordinatorLayout(library)
+
+Relative Layout: Easy to access--> easily drag and drop functionality. provides alot of attributes which help in dragging and dropping.
+
+RelativeLayout: child positioning
