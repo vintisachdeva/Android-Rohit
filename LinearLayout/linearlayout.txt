@@ -1,0 +1,26 @@
+Linear Layout-->
+
+vertically or horizontally
+
+
+attribute:
+
+setOrientation="ver./hor."
+by default= horizontal
+
+
+gravity
+layout_gravity
+
+
+layout_weight
+
+Linear layout:
+
+where screen sizes vary its better to use linear layout
+
+Screen task:
+
+https://play.google.com/store/apps/details?id=com.lumoslabs.lumosity&hl=en
+
+https://play.google.com/store/apps/details?id=de.lotum.whatsinthefoto.us&hl=en
