@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="month">Month</string>
+    <string-array name="month">
+        <item>January</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+    </string-array>
+</resources>
