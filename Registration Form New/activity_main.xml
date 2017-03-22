@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image"
+        android:alpha="0.5"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bmpl.registrationform.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_small_margin"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/activity_small_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_id"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailEditText"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/activity_small_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/activity_text_size"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:id="@+id/passwordEditText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textSize="@dimen/activity_text_size"
+        android:background="@drawable/button_style"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/signInButton"/>
+
+</LinearLayout>
+
+</FrameLayout>
