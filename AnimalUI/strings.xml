@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AnimalLover</string>
+    <string name="question1">"Which animal you like the most?"</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="bird">Bird</string>
+    <string name="question2">Rate yourself out of 10</string>
+    <string name="userRating">"Rating: 0/10"</string>
+    <string name="question3">"Which animal would you like to save when the World Ends?"</string>
+    <string name="submit">Submit</string>
+    <string name="max_seek">"10"</string>
+</resources>
